@@ -5,44 +5,7 @@
     <title>Scheduler</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <style>
-      body{
-        padding:5vh;
-      }
-      .scheduler-container{
-        height: auto;
-
-      }
-      .date-container{
-        height: 20vh;
-        padding: 2vh;
-      }
-      .calendar{
-        width: 100%;
-        height: 100%;
-        background-color: rebeccapurple;
-      }
-      .times-row{
-        height: auto;
-      }
-      .time-col{
-        /* display:flex; */
-        /* align-items:center; */
-        /* justify-content:center; */
-      }
-      .time{
-        margin-top:2vh;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        font-size: .7em;
-        width: 100%;
-        height: 40px;
-      }
-      .btn-outline-warning{
-        width: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
     <div class="container">
@@ -51,11 +14,38 @@
 
         </div>
         <div class="col-lg-6 scheduler-container">
+          <div class="row">
+            <div class="col-lg-1">
+
+            </div>
+            <div class="col-lg-10 appointment-header">
+              Schedule Appoinment
+            </div>
+            <div class="col-lg-1 close-scheduler">
+              <a href="#">x</a>
+            </div>
+          </div>
           <div class="row date-row">
             <div class="col-lg-12 date-container">
                <!-- Date Container -->
-               <div class="calendar img-rounded">
+               <div class="calendar">
+                 <div class="row calendar-content">
+                   <div class="col">
 
+                   </div>
+                   <div class="col prev date-nav">
+                     <a href="#">&laquo;</a>
+                   </div>
+                   <div class="col date date-nav">
+                    July 30
+                   </div>
+                   <div class="col next date-nav">
+                     <a href="#"> &raquo;</a>
+                   </div>
+                   <div class="col">
+
+                   </div>
+                 </div>
                </div>
             </div>
           </div>
@@ -85,6 +75,14 @@
                   <button class="btn btn-outline-warning" name="button">2:30pm</button>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-11">
+
+            </div>
+            <div style="color:white;" class="col-lg-1">
+              x
             </div>
           </div>
         </div>
