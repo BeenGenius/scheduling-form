@@ -1,0 +1,75 @@
+body{
+  padding:5vh;
+}
+.container{
+
+}
+.appointment-header{
+  text-align: center;
+  font-size: 2em;
+  padding: 1%;
+}
+.close-scheduler{
+  padding: 1%;
+  font-size:2em;
+}
+.scheduler-container{
+  height: auto;
+  border-radius:10px;
+  border: 1px solid black;
+}
+.date-container{
+  height: 10vh;
+  padding: 0 2vh 0 2vh;
+}
+.calendar{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+.times-row{
+  height: auto;
+}
+.time-col{
+  /* display:flex; */
+  /* align-items:center; */
+  /* justify-content:center; */
+}
+.time{
+  margin-top:2vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: .7em;
+  width: 100%;
+  height: 40px;
+}
+.btn-outline-warning{
+  width: 100%;
+}
+a{
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+.close-scheduler a{
+  color: black;
+  font-size: 1em;
+}
+.calendar-content{
+  height: 100%;
+}
+.date-nav{
+  color: white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.date{
+  font-size: 1.2em;
+}
